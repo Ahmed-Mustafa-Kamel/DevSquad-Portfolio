@@ -39,14 +39,16 @@ const About = () => {
 
       {/* text & (skills in webView) */}
       <div className=" p-6">
-        <h2 className=" text-gray-200 text-3xl font-bold mb-4">About Us</h2>
+        <h2 className=" text-gray-200 text-3xl sm:text-xl font-bold mb-4">
+          About Us
+        </h2>
 
         <motion.p
           initial={{ x: 100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className=" text-gray-300"
+          className=" text-gray-300 text-sm md:text-lg"
         >
           We are a skilled web development team with expertise in front-end and
           back-end technologies, including HTML, CSS, JavaScript, React,
