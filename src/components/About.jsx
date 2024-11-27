@@ -39,7 +39,7 @@ const About = () => {
 
       {/* text & (skills in webView) */}
       <div className=" p-6">
-        <h2 className=" text-gray-200 text-3xl sm:text-sm font-bold mb-4">
+        <h2 className=" text-gray-200 text-sm md:text-3xl font-bold mb-4">
           About Us
         </h2>
 
