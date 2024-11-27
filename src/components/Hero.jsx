@@ -5,7 +5,7 @@ import { Link } from "react-scroll";
 
 const Hero = () => {
   return (
-    <div className=" grid md:grid-cols-2 place-items-center max-w-[1500px] mx-auto mb-80 md:mb-32 mt-14">
+    <div className=" grid md:grid-cols-2 place-items-center max-w-[1500px] mx-auto mb-40 md:mb-32 mt-14">
       {/* hero image */}
       <motion.img
         initial={{ x: 100, opacity: 0 }}
