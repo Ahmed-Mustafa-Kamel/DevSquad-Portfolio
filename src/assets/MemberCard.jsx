@@ -33,7 +33,7 @@ const Members = [
 
 const MemberCard = () => {
   return (
-    <div className="my-10 mx-auto flex flex-wrap justify-center gap-4">
+    <div className="my-10 mx-auto flex flex-wrap justify-center gap-4 select-none">
       {/* /* From Uiverse.io by TamaniPhiri */}
       {Members.map((member, index) => (
         <div key={index} className="flex relative items-center justify-center">
