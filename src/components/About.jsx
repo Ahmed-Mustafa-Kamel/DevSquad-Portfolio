@@ -38,16 +38,16 @@ const About = () => {
       </motion.div>
 
       {/* text & (skills in webView) */}
-      <motion.div
-        initial={{ x: 100, opacity: 0 }}
-        whileInView={{ x: 0, opacity: 1 }}
-        viewport={{ once: true }}
-        transition={{ duration: 0.8, delay: 0.5 }}
-        className=" p-6"
-      >
+      <div className=" p-6">
         <h2 className=" text-gray-200 text-3xl font-bold mb-4">About Us</h2>
 
-        <p className=" text-gray-300">
+        <motion.p
+          initial={{ x: 100, opacity: 0 }}
+          whileInView={{ x: 0, opacity: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.8, delay: 0.5 }}
+          className=" text-gray-300"
+        >
           We are a skilled web development team with expertise in front-end and
           back-end technologies, including HTML, CSS, JavaScript, React,
           Node.js, PHP, Python, Django, and database systems like MySQL and
@@ -55,7 +55,7 @@ const About = () => {
           scalable, and user-friendly web solutions, we specialize in creating
           responsive designs, interactive applications, and robust server-side
           functionality to meet diverse client needs
-        </p>
+        </motion.p>
 
         {/* languages and technologies mobileView */}
         <h2 className=" text-gray-200 text-3xl font-bold my-4 ">Our Skills</h2>
@@ -80,7 +80,7 @@ const About = () => {
           <SiMysql className="text-gray-200" />
           <BiLogoMongodb className="text-green-600" />
         </motion.div>
-      </motion.div>
+      </div>
     </div>
   );
 };

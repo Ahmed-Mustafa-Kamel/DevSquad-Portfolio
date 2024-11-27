@@ -66,7 +66,11 @@ const NavBar = () => {
       </div>
 
       {/* navigation bar mobile*/}
-      <div
+      <motion.div
+        initial={{ x: 100, opacity: 0 }}
+        whileInView={{ x: 0, opacity: 1 }}
+        viewport={{ once: true }}
+        transition={{ duration: 1, delay: 0.2 }}
         className={
           Nav
             ? "text-center z-10 fixed h-full w-full left-0 top-0 bg-[#030617]/80 cursor-pointer"
@@ -110,7 +114,7 @@ const NavBar = () => {
             </Link>
           </li>
         </ul>
-      </div>
+      </motion.div>
     </nav>
   );
 };
