@@ -1,4 +1,4 @@
-import AboutImg from "../assets/about.jpg";
+import AboutImg from "../assets/about.png";
 import {
   DiHtml5,
   DiCss3,
@@ -19,15 +19,15 @@ import { motion } from "framer-motion";
 const About = () => {
   return (
     <div
-      className=" max-w-[1300px] mx-auto mb-40 p-6 grid md:grid-cols-2 gap-8 place-items-center"
+      className=" max-w-[1300px] mx-auto mb-40 p-6 grid md:grid-cols-2 gap-8 place-items-center md:mt-80"
       id="about"
     >
       {/* image */}
-      <motion.div
-        initial={{ x: -100, opacity: 0 }}
-        whileInView={{ x: 0, opacity: 1 }}
-        viewport={{ once: true }}
-        transition={{ duration: 0.8, delay: 1.5 }}
+      <div
+        // initial={{ x: -100, opacity: 0 }}
+        // whileInView={{ x: 0, opacity: 1 }}
+        // viewport={{ once: true }}
+        // transition={{ duration: 0.8 }}
         className="relative  group hidden md:block"
       >
         <div className=" w-full h-full absolute -inset-1 bg-gradient-to-r from-sky-100 to-sky-900 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-300"></div>
@@ -35,7 +35,7 @@ const About = () => {
         <div className="relative w-full p-4 bg-white bg-opacity-10 backdrop-blur-lg rounded-lg">
           <img src={AboutImg} alt="" className="rounded-lg md:max-w-[500px]:" />
         </div>
-      </motion.div>
+      </div>
 
       {/* text & (skills in webView) */}
       <div className=" p-6">
@@ -45,7 +45,7 @@ const About = () => {
           initial={{ x: 100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.8, delay: 0.5 }}
+          transition={{ duration: 0.8 }}
           className=" text-gray-300"
         >
           We are a skilled web development team with expertise in front-end and
@@ -63,7 +63,7 @@ const About = () => {
           initial={{ y: 100, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.8, delay: 0.5 }}
+          transition={{ duration: 0.8 }}
           className="md:flex bg-white bg-opacity-10 backdrop-blur-lg rounded-lg p-6 flex flex-wrap justify-center gap-8 text-4xl"
         >
           <DiHtml5 className="text-orange-600" />

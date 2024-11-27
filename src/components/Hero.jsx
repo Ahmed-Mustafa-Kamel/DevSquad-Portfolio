@@ -1,4 +1,4 @@
-import Logo from "../assets/logo1.jpg";
+import Logo from "../assets/logo1.png";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import { Link } from "react-scroll";
@@ -11,7 +11,7 @@ const Hero = () => {
         initial={{ x: 100, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
         viewport={{ once: true }}
-        transition={{ duration: 1, delay: 0.6 }}
+        transition={{ duration: 0.5 }}
         src={Logo}
         alt="Web Wizards Logo"
         className="Logo w-[500px] block md:hidden"
@@ -22,7 +22,7 @@ const Hero = () => {
         initial={{ x: -100, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
         viewport={{ once: true }}
-        transition={{ duration: 1, delay: 0.5 }}
+        transition={{ duration: 0.5 }}
         className=" max-w-[800px]"
       >
         <p className="text-gray-200 md:text-6xl text-3xl tracking-tight">
@@ -67,7 +67,7 @@ const Hero = () => {
         initial={{ x: 100, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
         viewport={{ once: true }}
-        transition={{ duration: 1, delay: 0.6 }}
+        transition={{ duration: 0.5 }}
         src={Logo}
         alt="Web Wizards Logo"
         className="Logo w-[500px] hidden md:block"

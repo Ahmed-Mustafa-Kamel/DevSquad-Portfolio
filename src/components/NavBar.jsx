@@ -2,7 +2,7 @@ import { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { Link } from "react-scroll";
 import LinkSpan from "./LinkSpan";
-import logo2 from "../assets/logo2.jpg";
+import logo2 from "../assets/logo2.png";
 import { motion } from "framer-motion";
 
 const NavBar = () => {
@@ -23,7 +23,7 @@ const NavBar = () => {
         initial={{ x: -100, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
         viewport={{ once: true }}
-        transition={{ duration: 1, delay: 0.8 }}
+        transition={{ duration: 0.5 }}
         href="https://dev-squad-portfolio.vercel.app/"
         className="font-sans font-semibold"
       >
@@ -36,7 +36,7 @@ const NavBar = () => {
         initial={{ x: 100, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
         viewport={{ once: true }}
-        transition={{ duration: 1, delay: 0.8 }}
+        transition={{ duration: 0.5 }}
         className="hidden md:flex gap-12 z-10 cursor-pointer"
       >
         <li className="relative group">
@@ -66,11 +66,7 @@ const NavBar = () => {
       </div>
 
       {/* navigation bar mobile*/}
-      <motion.div
-        initial={{ x: 100, opacity: 0 }}
-        whileInView={{ x: 0, opacity: 1 }}
-        viewport={{ once: true }}
-        transition={{ duration: 1, delay: 0.8 }}
+      <div
         className={
           Nav
             ? "text-center z-10 fixed h-full w-full left-0 top-0 bg-[#030617]/80 cursor-pointer"
@@ -114,7 +110,7 @@ const NavBar = () => {
             </Link>
           </li>
         </ul>
-      </motion.div>
+      </div>
     </nav>
   );
 };

@@ -13,7 +13,7 @@ const Portfolio = () => {
         whileInView={{ y: 0, opacity: 1 }}
         viewport={{ once: true }}
         transition={{ duration: 0.8, delay: 0.5 }}
-        className="flex mt-80 justify-self-center font-bold text-3xl text-gray-200 "
+        className="flex justify-self-center font-bold text-3xl text-gray-200 "
       >
         <h2 className="top-0 justify-self-center">Portfolio</h2>
       </motion.div>
@@ -22,7 +22,7 @@ const Portfolio = () => {
         initial={{ y: 100, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         viewport={{ once: true }}
-        transition={{ duration: 0.8, delay: 0.8 }}
+        transition={{ duration: 0.8 }}
         className="relative max-w-[1200px] mx-auto p-6 md:my-20 flex flex-col md:flex-row"
         id="portfolio"
       >
@@ -66,7 +66,7 @@ const Portfolio = () => {
           initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.8, delay: 0.5 }}
+          transition={{ duration: 0.8 }}
           className="ml-6 flex flex-wrap flex-row md:flex-col gap-6 justify-center mt-4 md:gap-1"
         >
           {/* mapping projects buttons */}
