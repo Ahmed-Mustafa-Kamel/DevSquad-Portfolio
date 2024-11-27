@@ -2,7 +2,7 @@ import { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { Link } from "react-scroll";
 import LinkSpan from "./LinkSpan";
-import logo2 from "../assets/logo2.webp";
+import logo2 from "../assets/logo2.jpg";
 import { motion } from "framer-motion";
 
 const NavBar = () => {

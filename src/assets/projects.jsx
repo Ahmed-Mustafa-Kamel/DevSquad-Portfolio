@@ -1,8 +1,8 @@
-import AMWebsite from "./ahmed-mustafa-projects/AhmedMustafa-website.Webp";
-import CodersCoffee from "./ahmed-mustafa-projects/coffee-coders.Webp";
-import responsiveSpace from "./ahmed-mustafa-projects/responsive-space-website.Webp";
-import restaura from "./ahmed-mustafa-projects/Restaura.Webp";
-import photoGallery from "./ahmed-mustafa-projects/photogallery.Webp";
+import AMWebsite from "./ahmed-mustafa-projects/AhmedMustafa-website.png";
+import CodersCoffee from "./ahmed-mustafa-projects/coffee-coders.png";
+import responsiveSpace from "./ahmed-mustafa-projects/responsive-space-website.png";
+import restaura from "./ahmed-mustafa-projects/Restaura.png";
+import photoGallery from "./ahmed-mustafa-projects/photogallery.png";
 
 export const Projects = [
   {

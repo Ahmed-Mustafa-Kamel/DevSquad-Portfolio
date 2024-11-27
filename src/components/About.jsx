@@ -1,4 +1,4 @@
-import AboutImg from "../assets/about.webp";
+import AboutImg from "../assets/about.jpg";
 import {
   DiHtml5,
   DiCss3,

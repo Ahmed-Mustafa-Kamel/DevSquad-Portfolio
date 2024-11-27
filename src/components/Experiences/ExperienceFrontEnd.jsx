@@ -1,5 +1,5 @@
 // import React from 'react'
-import FrontEndImg from "../../assets/frontendimg.webp";
+import FrontEndImg from "../../assets/frontendimg.jpg";
 import {
   DiHtml5,
   DiCss3,

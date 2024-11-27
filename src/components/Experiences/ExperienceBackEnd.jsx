@@ -1,4 +1,4 @@
-import BackEndImg from "../../assets/backendimg.webp";
+import BackEndImg from "../../assets/backendimg.jpg";
 import {
   //   DiJavascript1,
   //   DiNodejs,
