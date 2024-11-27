@@ -60,7 +60,9 @@ const About = () => {
         </motion.p>
 
         {/* languages and technologies mobileView */}
-        <h2 className=" text-gray-200 text-3xl font-bold my-4 ">Our Skills</h2>
+        <h2 className=" text-gray-200 text-sm md:text-3xl font-bold my-4 ">
+          Our Skills
+        </h2>
         <motion.div
           initial={{ y: 100, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
