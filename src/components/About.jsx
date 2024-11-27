@@ -39,7 +39,7 @@ const About = () => {
 
       {/* text & (skills in webView) */}
       <div className=" p-6">
-        <h2 className=" text-gray-200 text-sm md:text-3xl font-bold mb-4">
+        <h2 className=" text-gray-200 text-lg md:text-3xl font-bold mb-4">
           About Us
         </h2>
 
@@ -60,7 +60,7 @@ const About = () => {
         </motion.p>
 
         {/* languages and technologies mobileView */}
-        <h2 className=" text-gray-200 text-sm md:text-3xl font-bold my-4 ">
+        <h2 className=" text-gray-200 text-lg md:text-3xl font-bold my-4 ">
           Our Skills
         </h2>
         <motion.div
