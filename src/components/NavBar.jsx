@@ -23,8 +23,8 @@ const NavBar = () => {
         initial={{ x: -100, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
         viewport={{ once: true }}
-        transition={{ duration: 1, delay: 0.1 }}
-        href=""
+        transition={{ duration: 1, delay: 0.8 }}
+        href="https://dev-squad-portfolio.vercel.app/"
         className="font-sans font-semibold"
       >
         <img src={logo2} alt="" className="Logo" width={80} />
@@ -36,7 +36,7 @@ const NavBar = () => {
         initial={{ x: 100, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
         viewport={{ once: true }}
-        transition={{ duration: 1, delay: 0.2 }}
+        transition={{ duration: 1, delay: 0.8 }}
         className="hidden md:flex gap-12 z-10 cursor-pointer"
       >
         <li className="relative group">
@@ -70,7 +70,7 @@ const NavBar = () => {
         initial={{ x: 100, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
         viewport={{ once: true }}
-        transition={{ duration: 1, delay: 0.2 }}
+        transition={{ duration: 1, delay: 0.8 }}
         className={
           Nav
             ? "text-center z-10 fixed h-full w-full left-0 top-0 bg-[#030617]/80 cursor-pointer"
