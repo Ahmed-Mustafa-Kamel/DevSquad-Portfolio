@@ -3,6 +3,11 @@ import CodersCoffee from "./ahmed-mustafa-projects/coffee-coders.png";
 import responsiveSpace from "./ahmed-mustafa-projects/responsive-space-website.png";
 import restaura from "./ahmed-mustafa-projects/Restaura.png";
 import photoGallery from "./ahmed-mustafa-projects/photogallery.png";
+import OnlineCourses from "./ma7rez/Onlinecourses.png";
+import MS_Recycling from "./ma7rez/MS_Recycling.png";
+import community from "./ma7rez/community.png";
+import aiChat from "./ma7rez/aichat.png";
+
 
 export const Projects = [
   {
@@ -51,4 +56,41 @@ export const Projects = [
       github: "https://github.com/Ahmed-Mustafa-Kamel/photo-gallery-MERN-Stack",
     },
   },
+   {
+    img: OnlineCourses,
+    title: "project#6",
+    description: "An online training site that sells complete courses with a community and conversation with artificial intelligence, an examination system, course management, and community management.",
+    links: {
+      site: "https://restaura-sage.vercel.app/",
+      github: "https://github.com/MA7REZ1/projact1.git",
+    },
+  },
+   {
+    img: MS_Recycling,
+    title: "project#8",
+    description: "The site is a company",
+    links: {
+      site: "https://restaura-sage.vercel.app/",
+      github: "https://github.com/MA7REZ1/M-S-Recycling.git",
+    },
+  },
+  {
+    img: community,
+    title: "project#7",
+    description: "The site is a complete community",
+    links: {
+      site: "https://restaura-sage.vercel.app/",
+      github: "https://github.com/MA7REZ1/projact1.git",
+    },
+  },
+   {
+    img: aiChat,
+    title: "project#8",
+    description: "The site is a complete ai chat",
+    links: {
+      site: "https://restaura-sage.vercel.app/",
+      github: "https://github.com/MA7REZ1/projact1.git",
+    },
+  },
+ 
 ];
