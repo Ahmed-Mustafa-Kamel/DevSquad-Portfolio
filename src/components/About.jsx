@@ -48,7 +48,7 @@ const About = () => {
           whileInView={{ x: 0, opacity: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className=" text-gray-300 text-sm md:text-lg"
+          className=" text-gray-300 text-xl md:text-lg"
         >
           We are a skilled web development team with expertise in front-end and
           back-end technologies, including HTML, CSS, JavaScript, React,
