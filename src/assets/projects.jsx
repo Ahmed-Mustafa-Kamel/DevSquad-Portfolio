@@ -8,7 +8,6 @@ import community from "./ma7rez/community.png";
 import MS_Recycling from "./ma7rez/MS_Recycling.png";
 import aiChat from "./ma7rez/aichat.png";
 
-
 export const Projects = [
   {
     img: CodersCoffee,
@@ -56,41 +55,41 @@ export const Projects = [
       github: "https://github.com/Ahmed-Mustafa-Kamel/photo-gallery-MERN-Stack",
     },
   },
-   {
+  {
     img: OnlineCourses,
     title: "project#6",
-    description: "An online training site that sells complete courses with a community and conversation with artificial intelligence, an examination system, course management, and community management.",
+    description:
+      "An online training site that sells complete courses with a community and conversation with artificial intelligence, an examination system, course management, and community management.",
     links: {
-      site: "https://restaura-sage.vercel.app/",
+      site: "",
       github: "https://github.com/MA7REZ1/projact1.git",
     },
   },
-   {
+  {
     img: MS_Recycling,
-    title: "project#8",
-    description: "The site is a company",
+    title: "project#7",
+    description: "Recycling company",
     links: {
-      site: "https://restaura-sage.vercel.app/",
+      site: "",
       github: "https://github.com/MA7REZ1/M-S-Recycling.git",
     },
   },
   {
     img: community,
-    title: "project#7",
-    description: "The site is a complete community",
-    links: {
-      site: "https://restaura-sage.vercel.app/",
-      github: "https://github.com/MA7REZ1/projact1.git",
-    },
-  },
-   {
-    img: aiChat,
     title: "project#8",
-    description: "The site is a complete ai chat",
+    description: "A complete community",
     links: {
-      site: "https://restaura-sage.vercel.app/",
+      site: "",
       github: "https://github.com/MA7REZ1/projact1.git",
     },
   },
- 
+  {
+    img: aiChat,
+    title: "project#9",
+    description: "A complete ai chat",
+    links: {
+      site: "",
+      github: "https://github.com/MA7REZ1/projact1.git",
+    },
+  },
 ];
