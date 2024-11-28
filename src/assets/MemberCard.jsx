@@ -17,7 +17,10 @@ const Members = [
   {
     name: "Ahmed Samy",
     job: "FullStack_Developer",
-    links: { github: "", linkedin: "" },
+    links: {
+      github: "https://github.com/A1h9m9/",
+      linkedin: "https://www.linkedin.coum/in/ahmedsamy77/",
+    },
   },
   {
     name: "Mustafa",
