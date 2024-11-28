@@ -59,12 +59,12 @@ const MemberCard = () => {
               </svg>
             </div>
             {/* name & job */}
-            <div className="group-hover:pb-10 transition-all duration-500 ">
+            <div className="pb-10 transition-all duration-500 ">
               <h1 className="font-semibold text-gray-100">{member.name}</h1>
               <p className="text-gray-300 text-sm">{member.job}</p>
             </div>
             {/* links */}
-            <div className="flex items-center transition-all duration-500  group-hover:bottom-3 -bottom-full absolute gap-2 justify-evenly w-full">
+            <div className="flex items-center transition-all duration-500  bottom-3  absolute gap-2 justify-evenly w-full">
               <div className="flex gap-3 text-2xl bg-sky-700 text-white p-2 transition-all duration-500  rounded-full shadow-sm">
                 <a
                   href={member.links.github}
