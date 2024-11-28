@@ -19,7 +19,7 @@ const Members = [
     job: "FullStack_Developer",
     links: {
       github: "https://github.com/A1h9m9/",
-      linkedin: "https://www.linkedin.coum/in/ahmedsamy77/",
+      linkedin: "https://www.linkedin.com/in/ahmedsamy77/",
     },
   },
   {
