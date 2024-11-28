@@ -37,7 +37,7 @@ const Portfolio = () => {
             />
           </div>
 
-          <p className=" text-gray-200 my-4">
+          <p className=" text-gray-200 my-4 text-sm md:text-lg">
             {Projects[currentProject].description}
           </p>
 
