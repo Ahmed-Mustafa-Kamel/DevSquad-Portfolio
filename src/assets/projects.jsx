@@ -4,8 +4,8 @@ import responsiveSpace from "./ahmed-mustafa-projects/responsive-space-website.p
 import restaura from "./ahmed-mustafa-projects/Restaura.png";
 import photoGallery from "./ahmed-mustafa-projects/photogallery.png";
 import OnlineCourses from "./ma7rez/Onlinecourses.png";
-import MS_Recycling from "./ma7rez/MS_Recycling.png";
 import community from "./ma7rez/community.png";
+import MS_Recycling from "./ma7rez/MS_Recycling.png";
 import aiChat from "./ma7rez/aichat.png";
 
 
