@@ -15,11 +15,12 @@ import { SiMysql } from "react-icons/si";
 import { BiLogoMongodb } from "react-icons/bi";
 import { TbBrandJavascript } from "react-icons/tb";
 import { motion } from "framer-motion";
+import YouTubeChannels from "./YouTubeChannels";
 
 const About = () => {
   return (
     <div
-      className=" max-w-[1300px] mx-auto mb-40 p-6 grid md:grid-cols-2 gap-8 place-items-center md:mt-80"
+      className=" max-w-[1300px] mx-auto mb-40 p-6 grid md:grid-cols-2 gap-8 place-items-center md:mt-80 md:flex"
       id="about"
     >
       {/* image */}
@@ -30,7 +31,7 @@ const About = () => {
         // transition={{ duration: 0.8 }}
         className="relative  group hidden md:block"
       >
-        <div className=" w-full h-full absolute -inset-1 bg-gradient-to-r from-sky-100 to-sky-900 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-300"></div>
+        <div className=" w-full h-full absolute -inset-1 bg-gradient-to-r from-sky-100 to-sky-900 rounded-lg blur :opacity-100 transition duration-300"></div>
 
         <div className="relative w-full p-4 bg-white bg-opacity-10 backdrop-blur-lg rounded-lg">
           <img src={AboutImg} alt="" className="rounded-lg md:max-w-[500px]:" />
@@ -38,7 +39,7 @@ const About = () => {
       </div>
 
       {/* text & (skills in webView) */}
-      <div className=" p-6">
+      <div className="p-6">
         <h2 className=" text-gray-200 text-lg md:text-3xl font-bold mb-4">
           About Us
         </h2>
@@ -58,6 +59,7 @@ const About = () => {
           responsive designs, interactive applications, and robust server-side
           functionality to meet diverse client needs
         </motion.p>
+        <YouTubeChannels />
 
         {/* languages and technologies mobileView */}
         <h2 className=" text-gray-200 text-lg md:text-3xl font-bold my-4 ">

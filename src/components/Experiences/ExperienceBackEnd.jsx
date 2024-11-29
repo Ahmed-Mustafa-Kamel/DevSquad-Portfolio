@@ -25,7 +25,7 @@ const ExperienceBackEnd = () => {
         transition={{ duration: 0.8 }}
         className="relative  group hidden md:block"
       >
-        <div className=" w-full h-full absolute -inset-1 bg-gradient-to-r from-sky-100 to-blue-800 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-300"></div>
+        <div className=" w-full h-full absolute -inset-1 bg-gradient-to-r from-sky-100 to-blue-800 rounded-lg blur opacity-100 transition duration-300"></div>
 
         <div className="relative w-full p-4 bg-white bg-opacity-10 backdrop-blur-lg rounded-lg">
           <img
@@ -72,7 +72,7 @@ const ExperienceBackEnd = () => {
         transition={{ duration: 0.8 }}
         className="relative  group block md:hidden "
       >
-        <div className=" w-full h-full absolute -inset-1 bg-gradient-to-r from-sky-100 to-blue-800 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-300"></div>
+        <div className=" w-full h-full absolute -inset-1 bg-gradient-to-r from-sky-100 to-blue-800 rounded-lg blur opacity-100 transition duration-300"></div>
 
         <div className="relative w-full p-4 bg-white bg-opacity-10 backdrop-blur-lg rounded-lg">
           <img
