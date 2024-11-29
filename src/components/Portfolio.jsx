@@ -67,7 +67,7 @@ const Portfolio = () => {
           whileInView={{ x: 0, opacity: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="sm: mx-auto md:ml-16 flex flex-wrap flex-row md:flex-col gap-6 justify-center mt-4 md:gap-1"
+          className="sm:mx-auto md:ml-16 flex flex-wrap flex-row md:flex-col gap-6 justify-center mt-4 md:gap-1"
         >
           {/* mapping projects buttons */}
           {Projects.map((project, index) => (
