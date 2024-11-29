@@ -9,6 +9,7 @@ import MS_Recycling from "./ma7rez/MS_Recycling.png";
 import aiChat from "./ma7rez/aichat.png";
 import PhpECommerce from "./ahmed-samy/php e-commerce.jpg";
 import PhpBookStore from "./ahmed-samy/php bookStore.jpg";
+import PhpSocialNetworking from "./ahmed-samy/social networking.jpg";
 
 export const Projects = [
   {
@@ -110,6 +111,16 @@ export const Projects = [
     links: {
       site: "https://github.com/A1h9m9/ecommerce",
       github: "https://github.com/A1h9m9/ecommerce",
+    },
+  },
+  {
+    img: PhpSocialNetworking,
+    title: "project#12",
+    description: "Socail Network PHP & SQL Project",
+    links: {
+      site: "https://github.com/A1h9m9/social-networking-site-using-php-and-mysql",
+      github:
+        "https://github.com/A1h9m9/social-networking-site-using-php-and-mysql",
     },
   },
 ];
