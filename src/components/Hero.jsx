@@ -2,6 +2,7 @@ import Logo from "../assets/logo1.png";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import { Link } from "react-scroll";
+import cv from "../assets/DevSquad.pdf";
 
 const Hero = () => {
   return (
@@ -44,7 +45,8 @@ const Hero = () => {
         <div className=" flex flex-row gap-4 mb-4 md:mb-0">
           {/* cv */}
           <a
-            href={""}
+            href={cv}
+            rel="noopener noreferrer"
             target="_blank"
             className=" cursor-pointer text-center font-bold text-gray-200 w-1/2 mt-6 p-2 bg-gradient-to-r from-[#28d9f1] via-[#20bdf3] to-[#25b0f1] rounded-xl transform transition-transform hover:scale-105"
           >
