@@ -15,7 +15,7 @@ const Portfolio = () => {
         transition={{ duration: 0.8, delay: 0.5 }}
         className="flex justify-self-center font-bold text-3xl text-gray-200 "
       >
-        <h2 className="top-0 justify-self-center">Portfolio</h2>
+        <h2 className="mx-auto">Portfolio</h2>
       </motion.div>
 
       <motion.div
