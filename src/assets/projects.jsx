@@ -7,6 +7,8 @@ import OnlineCourses from "./ma7rez/Onlinecourses.png";
 import community from "./ma7rez/community.png";
 import MS_Recycling from "./ma7rez/MS_Recycling.png";
 import aiChat from "./ma7rez/aichat.png";
+import PhpECommerce from "./ahmed-samy/php e-commerce.jpg";
+import PhpBookStore from "./ahmed-samy/php bookStore.jpg";
 
 export const Projects = [
   {
@@ -90,6 +92,24 @@ export const Projects = [
     links: {
       site: "",
       github: "https://github.com/MA7REZ1/projact1.git",
+    },
+  },
+  {
+    img: PhpBookStore,
+    title: "project#10",
+    description: "Book Store PHP Project",
+    links: {
+      site: "https://github.com/A1h9m9/simple-online-book",
+      github: "https://github.com/A1h9m9/simple-online-book",
+    },
+  },
+  {
+    img: PhpECommerce,
+    title: "project#11",
+    description: "PHP E-Commerce Project",
+    links: {
+      site: "https://github.com/A1h9m9/ecommerce",
+      github: "https://github.com/A1h9m9/ecommerce",
     },
   },
 ];
