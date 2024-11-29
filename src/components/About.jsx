@@ -15,7 +15,6 @@ import { SiMysql } from "react-icons/si";
 import { BiLogoMongodb } from "react-icons/bi";
 import { TbBrandJavascript } from "react-icons/tb";
 import { motion } from "framer-motion";
-import YouTubeChannels from "./YouTubeChannels";
 
 const About = () => {
   return (
@@ -59,7 +58,6 @@ const About = () => {
           responsive designs, interactive applications, and robust server-side
           functionality to meet diverse client needs
         </motion.p>
-        <YouTubeChannels />
 
         {/* languages and technologies mobileView */}
         <h2 className=" text-gray-200 text-lg md:text-3xl font-bold my-4 ">
