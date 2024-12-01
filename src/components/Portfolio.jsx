@@ -81,7 +81,6 @@ const Portfolio = () => {
               {project.title}
             </li>
           ))}
-          <li></li>
         </motion.ul>
       </motion.div>
     </>
