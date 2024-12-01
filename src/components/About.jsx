@@ -33,13 +33,13 @@ const About = () => {
         <div className=" w-full h-full absolute -inset-1 bg-gradient-to-r from-sky-100 to-sky-900 rounded-lg blur :opacity-100 transition duration-300"></div>
 
         <div className="relative w-full p-4 bg-white bg-opacity-10 backdrop-blur-lg rounded-lg">
-          <img src={AboutImg} alt="" className="rounded-lg md:max-w-[500px]:" />
+          <img src={AboutImg} alt="" className="rounded-lg md:max-w-[500px]" />
         </div>
       </div>
 
       {/* text & (skills in webView) */}
       <div className="p-6">
-        <h2 className=" text-gray-200 text-lg md:text-3xl font-bold mb-4">
+        <h2 className=" text-gray-200 text-lg md:text-3xl font-bold mb-4 w-[50%]">
           About Us
         </h2>
 
