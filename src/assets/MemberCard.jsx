@@ -19,7 +19,7 @@ const Members = [
   {
     picture: MahrezPic, 
     name: "Ahmed Mahrez",
-    job: "BackEnd Developer",
+    job: "FullStack Developer",
     links: {
       github: "",
       linkedin: "",
