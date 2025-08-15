@@ -21,8 +21,8 @@ const Members = [
     name: "Ahmed Mahrez",
     job: "FullStack Developer",
     links: {
-      github: "",
-      linkedin: "",
+      github: "https://github.com/MA7REZ1",
+      linkedin: "https://www.linkedin.com/in/ahmed-mahrez-hikal-5b47542a0/",
       YouTube: " ",
     },
   },
@@ -31,7 +31,7 @@ const Members = [
     name: "Mustafa Yakout",
     job: "FrontEnd Developer",
     links: {
-      github: "",
+      github: "https://github.com/yakout11",
       linkedin: "",
       YouTube: " ",
     },
@@ -48,7 +48,7 @@ const Members = [
   },
   {
     picture: "", 
-    name: "Hussein",
+    name: "Hussein El-Daramaly",
     job: "BackEnd Developer",
     links: {
       github: "",

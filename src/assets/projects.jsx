@@ -10,6 +10,8 @@ import aiChat from "./ma7rez/aichat.png";
 import PhpECommerce from "./ahmed-samy/php e-commerce.jpg";
 import PhpBookStore from "./ahmed-samy/php bookStore.jpg";
 import PhpSocialNetworking from "./ahmed-samy/social networking.jpg";
+import Kayan from "./ma7rez/kayan.png";
+import trainingArabic from "./ma7rez/training arabic.png";
 
 export const Projects = [
   {
@@ -123,4 +125,23 @@ export const Projects = [
         "https://github.com/A1h9m9/social-networking-site-using-php-and-mysql",
     },
   },
+  {
+    img: Kayan,
+    title: "project#13",
+    description: "Fullstack E-Learning Platform",
+    links: {
+      site: "https://kayan.lovestoblog.com/?i=3",
+      github:"",
+    },
+  },
+  {
+    img: trainingArabic,
+    title: "project#14",
+    description: "Fullstack E-Learning Platform",
+    links: {
+      site: "https://at3lm.atwebpages.com/",
+      github:"",
+    },
+  },
+
 ];
