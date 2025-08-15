@@ -1,11 +1,15 @@
 // import React from "react";
 
 import { FaYoutube } from "react-icons/fa6";
+import AMustafaPic from './members/ahmed mustafa.jpg'
+import MYakoutPic from './members/mustafa yakout.jpeg'
+import MahrezPic from './members/mahrez.jpg'
 
 const Members = [
   {
+    picture: AMustafaPic, 
     name: "Ahmed Mustafa",
-    job: "FullStack_Developer",
+    job: "FullStack Developer",
     links: {
       github: "https://github.com/Ahmed-Mustafa-Kamel?tab=repositories",
       linkedin: "https://www.linkedin.com/in/ahmed-mustafa-96239b206/",
@@ -13,8 +17,9 @@ const Members = [
     },
   },
   {
+    picture: MahrezPic, 
     name: "Ahmed Mahrez",
-    job: "BackEnd_Developer",
+    job: "BackEnd Developer",
     links: {
       github: "",
       linkedin: "",
@@ -22,8 +27,19 @@ const Members = [
     },
   },
   {
+    picture: MYakoutPic, 
+    name: "Mustafa Yakout",
+    job: "FrontEnd Developer",
+    links: {
+      github: "",
+      linkedin: "",
+      YouTube: " ",
+    },
+  },
+  {
+    picture: "", 
     name: "Ahmed Samy",
-    job: "FullStack_Developer",
+    job: "FullStack Developer",
     links: {
       github: "https://github.com/A1h9m9/",
       linkedin: "https://www.linkedin.com/in/ahmedsamy77/",
@@ -31,17 +47,9 @@ const Members = [
     },
   },
   {
-    name: "Mustafa",
-    job: "FrontEnd_Developer",
-    links: {
-      github: "",
-      linkedin: "",
-      YouTube: " ",
-    },
-  },
-  {
+    picture: "", 
     name: "Hussein",
-    job: "BackEnd_Developer",
+    job: "BackEnd Developer",
     links: {
       github: "",
       linkedin: "",
@@ -59,11 +67,15 @@ const MemberCard = () => {
           <div className="rounded-xl overflow-hidden relative text-center p-4 group items-center flex flex-col max-w-sm shadow-black/20 shadow-xl  transition-all duration-500  hover:shadow-2xl hover:shadow-black/40 glass">
             {/* pic */}
             <div className="text-gray-200 group-hover:scale-105 transition-all">
-              <svg
-                className="w-16 h-16"
-                stroke="currentColor"
-                strokeWidth="1.5"
-                viewBox="0 0 24 24"
+              {/* checking if there is a picture */}
+              {member.picture ? (
+                <img src={member.picture} alt={member.name} className="w-16 h-16 object-contain rounded-full" />
+              ) : (
+                <svg
+                  className="w-16 h-16"
+                  stroke="currentColor"
+                  strokeWidth="1.5"
+                  viewBox="0 0 24 24"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
               >
@@ -72,7 +84,7 @@ const MemberCard = () => {
                   strokeLinejoin="round"
                   strokeLinecap="round"
                 ></path>
-              </svg>
+              </svg>)}
             </div>
             {/* name & job */}
             <div className="pb-10 transition-all duration-500 ">
